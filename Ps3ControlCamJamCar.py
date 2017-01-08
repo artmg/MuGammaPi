@@ -29,14 +29,13 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
 
-## SWAP THESE PAIRS DEPENDING on your wiring
-
 # Set variables for the GPIO motor pins
-pinMotorRightForwards = 10
-pinMotorRightBackwards = 9
-
+### SWAP THESE PAIRS DEPENDING on your wiring ###
 pinMotorLeftForwards = 8
 pinMotorLeftBackwards = 7
+
+pinMotorRightForwards = 10
+pinMotorRightBackwards = 9
 
 
 # Set the GPIO Pin mode
@@ -52,6 +51,7 @@ GPIO.output(pinMotorRightForwards, 0)
 GPIO.output(pinMotorRightBackwards, 0)
 
 
+# workaround for 
 # credit - https://www.raspberrypi.org/forums/viewtopic.php?t=130201&p=869560
 os.putenv('DISPLAY', ':0.0') 
 pygame.display.init()
