@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-"""Ps3ControlCamJamCar.py: Control CamJam Edukit 3 Robotics on Raspberry Pi with PS3 Controller over Bluetooth."""
+"""ps3ControlCamJamCar.py: Control CamJam Edukit 3 Robotics on Raspberry Pi with PS3 Controller over Bluetooth."""
 
 __author__ = "ArtMG"
-__contact__ = "https://github.com/artmg/MuGammaPi/blob/master/Ps3ControlCamJamCar.py"
+__contact__ = "https://github.com/artmg/MuGammaPi/blob/master/ps3ControlCamJamCar.py"
 __status__ = "Production"
 
 # For more on this see the accompanying article https://github.com/artmg/MuGammaPi/wiki/CamJam-Robotics-Kit
