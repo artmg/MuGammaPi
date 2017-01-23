@@ -3,7 +3,7 @@
 ### ps3ControlCamJamCar.InstallService.sh: Install PS3 Controller service for CamJam Edukit 3 Robotics on Raspberry Pi ###
 
 ## author:  ArtMG
-## contact: https://github.com/artmg/MuGammaPi/blob/master/ps3ControlCamJamCar.InstallService.sh
+## contact: https://github.com/artmg/MuGammaPi/blob/master/EduKitRobotics/ps3ControlCamJamCar.InstallService.sh
 ## status:  Production
 
 # For more on this see the accompanying article https://github.com/artmg/MuGammaPi/wiki/CamJam-Robotics-Kit
@@ -36,3 +36,5 @@ sudo systemctl enable ps3ControlCamJamCar.service
 # now reboot to test
 sudo reboot
 
+# to test whether the service is running...
+# sudo systemctl status ps3ControlCamJamCar.service
